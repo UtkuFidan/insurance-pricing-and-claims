@@ -1,0 +1,4 @@
+model,poisson_deviance_mean,poisson_deviance_sd,gini_mean,gini_sd,pred_over_actual_mean,pred_over_actual_sd
+Null (portfolio mean),0.51409,0.0050915,0,0,1.0002,0.017297
+Poisson GLM,0.51009,0.0048186,0.10109,0.0065602,1.0003,0.015467
+XGBoost Poisson,0.51012,0.0048453,0.1,0.00344,1.0001,0.016111

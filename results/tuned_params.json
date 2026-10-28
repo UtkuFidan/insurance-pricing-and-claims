@@ -1,0 +1,38 @@
+{
+  "freq_claims": {
+    "max_depth": 5,
+    "eta": 0.09686279637880062,
+    "min_child_weight": 38.526306043727374,
+    "subsample": 0.9218658781890521,
+    "colsample_bytree": 0.623569507389722,
+    "reg_lambda": 0.27005498792855587,
+    "reg_alpha": 4.315031933247739
+  },
+  "freq_amount": {
+    "max_depth": 4,
+    "eta": 0.17049622824658717,
+    "min_child_weight": 5.619729251941941,
+    "subsample": 0.9667984843124339,
+    "colsample_bytree": 0.6047393883987695,
+    "reg_lambda": 0.1429133709836544,
+    "reg_alpha": 0.004535998591253967
+  },
+  "severity": {
+    "max_depth": 3,
+    "eta": 0.1356952604860803,
+    "min_child_weight": 68.51018273281153,
+    "subsample": 0.8763734636985059,
+    "colsample_bytree": 0.9429357067575421,
+    "reg_lambda": 0.6899986548860075,
+    "reg_alpha": 0.8471463481421488
+  },
+  "pure_premium": {
+    "max_depth": 2,
+    "eta": 0.12648591647222013,
+    "min_child_weight": 12.829186429332381,
+    "subsample": 0.8202095009747811,
+    "colsample_bytree": 0.7000892775404043,
+    "reg_lambda": 0.04475974516449549,
+    "reg_alpha": 0.722122665440219
+  }
+}

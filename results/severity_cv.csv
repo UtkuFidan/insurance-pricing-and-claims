@@ -1,0 +1,4 @@
+model,gamma_deviance_mean,gamma_deviance_sd,pred_over_actual_mean,pred_over_actual_sd
+Null (portfolio mean),1.2999,0.050112,1.0008,0.033534
+Gamma GLM,1.3175,0.053002,0.99988,0.038806
+XGBoost Gamma,1.2986,0.05009,0.99178,0.036609

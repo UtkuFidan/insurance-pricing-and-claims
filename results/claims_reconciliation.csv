@@ -1,0 +1,5 @@
+status,policies,claims_in_freq,amounts_in_sev,mean_exposure
+"claims, none with an amount",9116,9657,0,0.50521
+every claim has an amount,24943,26443,26443,0.69266
+no claim,643953,0,0,0.52273
+some claims lack an amount,1,2,1,0.82

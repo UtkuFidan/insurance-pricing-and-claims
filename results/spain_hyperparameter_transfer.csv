@@ -1,0 +1,2 @@
+model,poisson_deviance_mean,poisson_deviance_sd,gini_mean,gini_sd,pred_over_actual_mean,pred_over_actual_sd
+"XGBoost Poisson, French hyper-parameters",0.51021,0.004749,0.1008,0.0082958,1.0003,0.0166

@@ -1,0 +1,20 @@
+{
+  "freq": {
+    "max_depth": 2,
+    "eta": 0.11170679329576956,
+    "min_child_weight": 7.461626874049002,
+    "subsample": 0.6822986777384341,
+    "colsample_bytree": 0.9623111907138706,
+    "reg_lambda": 2.3567024249430455,
+    "reg_alpha": 0.01952148718374248
+  },
+  "pure_premium": {
+    "max_depth": 2,
+    "eta": 0.08355341718560834,
+    "min_child_weight": 4.602406137340409,
+    "subsample": 0.6303398196804898,
+    "colsample_bytree": 0.7613229329065025,
+    "reg_lambda": 0.029066155768782968,
+    "reg_alpha": 4.753274765647077
+  }
+}

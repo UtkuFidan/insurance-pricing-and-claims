@@ -1,0 +1,5 @@
+reason,claims,description
+SEV_TAIL,90,Amount in the extreme upper tail of the GLM-implied Gamma severity distribution
+SEV_RATIO,550,Amount more than 5x the model-predicted severity
+SHORT_EXPOSURE_LARGE,227,Large claim (>2x predicted) on a policy with < 0.15 years of exposure
+MULTI_CLAIM,277,Policy with 3 or more claims in the exposure period

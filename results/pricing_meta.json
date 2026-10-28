@@ -1,0 +1,14 @@
+{
+  "n_policies": 678013,
+  "n_tuning": 135633,
+  "n_cv": 542380,
+  "folds": 5,
+  "optuna_trials": 25,
+  "exposure_years": 358360.1054629838,
+  "claim_frequency": 0.1006138781922095,
+  "claims_in_freq_table": 36056,
+  "claims_with_amount": 26444,
+  "severity_dispersion": 7.429612442891582,
+  "target_loss_ratio": 0.7,
+  "seed": 42
+}

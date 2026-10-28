@@ -1,0 +1,11 @@
+feature,mean_abs_shap
+licence_years,0.090734
+brand_grp,0.043766
+log_value,0.037036
+fuel_type,0.033532
+driver_age,0.031159
+circulation_area,0.030189
+power_to_weight,0.027465
+bonus_score,0.023298
+municipality_type,0.017051
+seats,0.0038088

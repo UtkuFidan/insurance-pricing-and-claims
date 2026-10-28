@@ -1,0 +1,19 @@
+{
+  "rows_raw": 354140,
+  "rows_used": 354091,
+  "policyholders": 185677,
+  "exposure_years": 250325.89863013697,
+  "claims": 37692,
+  "claim_frequency": 0.1505717155366769,
+  "liability_premium": 63997610.90134491,
+  "liability_incurred_capped": 45105448.2095,
+  "portfolio_loss_ratio": 0.7047989381827394,
+  "tweedie_deviance_by_model": {
+    "GLM": 83.89813442820363,
+    "XGBoost": 83.80636948123046
+  },
+  "n_tuning": 70616,
+  "n_cv": 283475,
+  "folds": 5,
+  "seed": 42
+}

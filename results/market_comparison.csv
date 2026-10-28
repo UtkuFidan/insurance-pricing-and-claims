@@ -1,0 +1,3 @@
+market,rows,exposure_years,claims,claim_frequency,glm_dev_gain_vs_null_pct,xgb_dev_gain_vs_glm_pct,gini_glm,gini_glm_sd,gini_xgb,gini_xgb_sd,top_shap_features
+France (freMTPL2),678013,3.5836e+05,36056,0.10061,5.08,3.2934,0.28455,0.0024114,0.3383,0.0031791,"BonusMalus, VehAge, DrivAge"
+Spain 2022-24 (liability),283475,2.0047e+05,30265,0.15097,0.77922,-0.0073243,0.10109,0.0065602,0.1,0.00344,"licence_years, brand_grp, log_value"

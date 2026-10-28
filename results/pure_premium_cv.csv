@@ -1,0 +1,6 @@
+model,tweedie_deviance_mean,tweedie_deviance_sd,gini_loss_mean,gini_loss_sd,pred_over_actual_mean,pred_over_actual_sd
+Null (portfolio mean),77.43,1.3973,0,0,1.0012,0.044245
+Freq x Sev GLM,72.197,1.8491,0.37339,0.035522,1.0005,0.043422
+Tweedie GLM (p=1.5),71.69,1.713,0.39316,0.025162,1.0116,0.044434
+XGBoost freq x XGBoost sev,70.066,1.8207,0.43305,0.033945,0.99209,0.046323
+XGBoost Tweedie (p=1.5),70.696,1.8147,0.41516,0.030425,0.94634,0.044433
