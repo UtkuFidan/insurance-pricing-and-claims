@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "insurance-pricing-and-claims"
+version = "0.2.0"
+description = "Motor insurance pricing (cross-validated frequency-severity GLMs vs tuned GBMs, premium adequacy, a second market), claims reserving (chain-ladder, Mack, BF, bootstrap ODP) and severity-anomaly screening on public data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Utku Fidan" }]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scipy>=1.11",
+    "scikit-learn>=1.6",
+    "statsmodels>=0.14",
+    "xgboost>=2.0",
+    "optuna>=3.6",
+    "shap>=0.45",
+    "chainladder>=0.8.20",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+ins-ml = "ins_ml.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning", "ignore::RuntimeWarning"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "W"]
